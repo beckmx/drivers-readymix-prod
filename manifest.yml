@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 2048M
+  instances: 1
+  domain: mybluemix.net
+  name: drivers-readymix-prod
+  host: drivers-readymix-prod
+  disk_quota: 2048M
+  env:
+    CACHE_NUGET_PACKAGES: false
